@@ -1,24 +1,36 @@
-Projeto de Web Scraping
-Este projeto realiza web scraping em diferentes fontes de dados para coletar informações relevantes de postagens do subreddit r/programming, ofertas de um e-commerce e informações de produtos do Magazine Luiza.
+Este é um projeto focado em Web Scrapping, onde é realizado raspagem de dados na web e API, dividido em 3 atividades.
 
-Atividades Realizadas
-# Questão 1: Web Scraping do Reddit
-Utilizando as bibliotecas Requests e BeautifulSoup, este script faz o web scraping do título, up votes e do link das três primeiras postagens do subreddit r/programming no Reddit. Os dados coletados são armazenados em Json.
+# Tecnologias Utilizadas
+
+- **Python**: Linguagem utilizada no projeto.
+- **Selenium**: Biblioteca utilizada para interagir com o navegador e elementos da página web
+- **BeautifulSoup**: Biblioteca utilizada para extrair conteúdos HTML da Web.
+
+## Requisitos:
+- Python 3.7 ou superior
+- Bibliotecas:
+  - `Selenium`
+  - `BeautifulSoup`  
+
+# Projeto:
+## 1 Funcionalidade - Desafio 1: Web Scraping do Reddit.
+Utilizando as bibliotecas Requests e BeautifulSoup, este script faz o web scraping do título, up votes e link das três primeiras postagens do subreddit r/programming no Reddit. Os dados coletados utilizando a biblioteca BeautifulSoup, Re dentre outras e suas informações são armazenados em Json.
 
 
-# Questão 2: Extração de Ofertas de um E-commerce
-Neste exercício, foi feito web scraping a partir de uma resposta JSON de uma API de um e-commerce. O objetivo é extrair uma lista de ofertas com os seguintes atributos:
+## 2° Funcionalidade - Desafio 2: Extração de dados de ofertas de uma API.
+Neste exercício, foi feito web scraping a partir de uma resposta JSON de simulando uma API de um e-commerce. O objetivo principal é extrair uma lista de ofertas com os seguintes atributos:
 
-offer_link: link da oferta
-image_link: link da imagem do produto
-price: preço da oferta
-title: título da oferta
+- offer_link: link da oferta
+- image_link: link da imagem do produto
+- price: preço da oferta
 
 
-# Questão 3: Captura de Informações do Magazine Luiza
-Este script captura informações de produtos diretamente do site Magazine Luiza e estrutura os dados em formato JSON. Os atributos coletados incluem:
+## 3° Funcionalidade - Desafio 3: Captura de Informações de produtos da Magazine Luiza
+Este script captura informações de produtos diretamente do site Magazine Luiza e então estrutura as informações em formato JSON. Os atributos coletados incluem:
 
-title: título do produto
-stock_availability: disponibilidade em estoque
-price: preço do produto
+- title: título do produto
+- stock_availability: disponibilidade em estoque
+- price: preço do produto
+
+
 
