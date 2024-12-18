@@ -1,4 +1,4 @@
-Este é um projeto focado em Web Scrapping, onde é realizado raspagem de dados na web e API, dividido em 3 atividades.
+Este projeto é dedicado ao Web Scraping, abrangendo a extração de dados tanto de sites quanto de APIs. Para facilitar o aprendizado e a organização, o trabalho foi dividido em três scripts, cada um responsável por realizar a raspagem de dados de fontes distintas.
 
 # Tecnologias Utilizadas
 
